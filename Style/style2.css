@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(20, 20, 20);
+    margin: 0 auto;
+}
+#header{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px lime solid;
+    border-top: none;
+    border-left: none;
+   
+}
+@font-face{
+  font-family: fifthDiv;
+  src: url(Fonts/Wickedqueen-Wyz34.ttf);
+}
+#header>img{
+    width: 80px;
+    height: 70px;
+    
+    
+
+}
+.li>a{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    padding: 6px;
+    font-size: 25px;
+    
+}
+#ul1{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-top: 22px;  
+}
+#ul2{
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-top: 22px;
+}
+.li>a:hover{
+    color: green; 
+    border: white 2px solid;
+}
+
+
+
+#firstA{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#secondA{
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.container {
+	
+  width: 35%;
+  left: 30%;
+  top: 150px;
+  min-height: 280px;
+  height: auto;
+  position: relative;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.link-container a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid grey;
+}
+
+.link-container a:first-child {
+  border-right: 2px solid grey;
+}
+
+.link-container>a:hover {
+  background-color: #34ebab;
+  transition: all 0.2s ease;
+}
+
+.form-style {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.form-style label {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.form-style .input {
+  margin-top: 10px;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  border: 0px;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #cae0d9;
+}
+
+.forms {
+  height: auto;
+}
+
+#submit {
+  width: 20%;
+  left: 40%;
+  background-color: #28a745;
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 30%;
+  left: 35%;
+  margin-top: 100px;
+}
+
+.footer h3 {
+  padding: 0;
+  margin: 0;
+}
+#p-c{
+  color: lime;
+  text-align: center;
+  font-size: 61px;
+  font-family: fifthDiv;
+}
+.img-c{
+  width: 200px;
+  height: 200px ;
+  border: 3px solid lime;
+  padding-right: 10px;
+}
+#ul-c{
+  display: flex;
+  flex-direction: row;
+}
+#id-c{
+  position: absolute;
+  
+
+}
+
+

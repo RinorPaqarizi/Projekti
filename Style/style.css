@@ -1,0 +1,274 @@
+body{
+    margin: 0 auto;
+    background-color:rgb(20, 20, 20);
+}
+#header{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px lime solid;
+    border-top: none;
+    border-left: none;
+   
+}
+
+#header>img{
+    width: 80px;
+    height: 70px;
+    
+    
+
+}
+.li>a{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    padding: 6px;
+    font-size: 25px;
+    
+}
+#ul1{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-top: 22px;  
+}
+#ul2{
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-top: 22px;
+}
+.li>a:hover{
+    color: green; 
+    border: white 2px solid;
+}
+@font-face{
+    font-family: firstDiv;
+    src: url(Fonts/LobsterTwo-Regular.ttf);
+}
+
+@font-face{
+    font-family: secondDiv;
+    src: url(Fonts/LobsterTwo-Italic.ttf);
+}
+@font-face{
+    font-family: thirdDiv;
+    src: url(Fonts/Rokkitt-Light.ttf);
+}
+@font-face{
+    font-family: fourthDiv;
+    src: url(Fonts/Sanctuary.ttf);
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+    padding-top: 10px;
+    font-family:fourthDiv;
+    font-size: 50px;
+}
+#under-header{
+    color: white;
+    text-align: center;
+    padding: 0%;
+    font-family:firstDiv;
+    border-bottom:lime 1px dashed  ;
+    font-size: 20px;
+}
+#mainDiv{
+    
+}
+#main{
+    position: absolute;
+}
+#main-2{
+    position: absolute;  
+
+}
+#main-3{
+    position: absolute;  
+}
+#david{
+    padding-top: 80px;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 990px;
+    right: 500px;
+    
+}
+#boss-yellow{
+
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 985px;
+    top: 450px;
+}
+#banana{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 985px;
+    top: 810px;
+}
+#text-p1{
+    position: absolute;
+    color: lightblue;
+    text-align: center;
+    width: 500px;
+    top:190px;
+    left: 260px;
+    font-size: 20px;
+    font-family: secondDiv;
+}
+#text-p2{
+        position: absolute;
+        color: orange;
+        text-align: center;
+        width: 500px;
+        top:530px;
+        left: 260px;
+        font-family: secondDiv;
+        font-size: 20px;
+}
+#text-p3{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 500px;
+    top:900px;
+    left: 260px;
+    font-family: secondDiv;
+    font-size: 20px;
+}
+#p1{
+    position: absolute;
+    color: lightblue;
+    text-align: center;
+    width: 500px;
+    top:300px;
+    left: 260px;
+    font-size: 20px;
+    font-family: secondDiv;
+}
+#p2{
+    position: absolute;
+    color: orange;
+    text-align: center;
+    width: 500px;
+    top:665px;
+    left: 255px;
+    font-size: 20px;
+    font-family: secondDiv;
+}
+#p3{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 500px;
+    top:1010px;
+    left: 250px;
+    font-size: 20px;
+    font-family: secondDiv;
+}
+#h2{
+    position: absolute;
+    color:white;
+    text-align: center;
+    width: 1000px;
+    left: 20%;
+    font-family: thirdDiv;
+    
+    
+}
+#idk-anymore{
+    
+    position: absolute;
+    color:lime;
+    text-align: center;
+    width: 1000px;
+    font-size: 50px;
+    left: 20%;
+    top:460px;
+    font-family: fourthDiv;
+}
+#img-div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 500px;
+    right: 15px;
+}
+.imgs{
+    padding: 5px;
+    width:500px;
+    height: 400px;
+}
+#c-div{
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 180px;
+    left: 34%;
+    border: 2px lime solid;
+    bottom: 20px;
+
+}
+#c-div>label{
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.input{
+    
+    margin-left: 140px;
+    width:200px;
+    height: 25px;
+
+}
+
+#lastInput{
+    width: 500px;
+    height:200px;
+}
+#button{
+    color: white;
+    background-color: lime;
+    margin-top: 10px;
+    margin-left: 180px;
+    width:150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 6px;
+}
+#button>a{
+    text-decoration: none;
+    color: white;
+}
+#h1-c{
+    color:lime;
+    font-size: 80px;
+    font-family: thirdDiv;
+}
+#button2{
+    background-color:rgb(20, 20, 20) ;
+    position: relative;
+    left: 710px;
+    width: 100px;
+    height: 30px;
+    border: 2px lime solid;
+    border-radius: 4px;
+}
+#button2>a{
+    color:white;
+    text-decoration: none;
+}
