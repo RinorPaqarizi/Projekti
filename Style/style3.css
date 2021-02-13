@@ -1,0 +1,212 @@
+
+#div1{
+    position: absolute;
+    background-color: rgb(201, 104, 14);
+    width: 30vw;
+    height: 90.5vh;
+}
+#div2{
+    position: relative;
+    background-color: lightsalmon;
+    width: 70vw;
+    height: 90.5vh;
+    left: 30vw;
+}
+#div3{
+    position: absolute;
+    background-color:rgb(110, 46, 170);
+    width: 30vw;
+    height: 90.5vh;
+}
+#div4{
+    position: relative;
+    background-color: rgb(153, 113, 190);
+    width: 70vw;
+    height: 90.5vh;
+    left: 30vw;
+}
+#div5{
+    position: absolute;
+    background-color: black;
+    width: 30vw;
+    height: 90.5vh;
+}
+#div6{
+    position: relative;
+    background-color: lightslategrey;
+    width: 70vw;
+    height: 90.5vh;
+    left: 30vw;
+}
+#div7{
+    position: absolute;
+    background-color: blue;
+    width: 30vw;
+    height: 90.5vh;
+}
+#div8{
+    position: relative;
+    background-color: lightblue;
+    width: 70vw;
+    height: 90.5vh;
+    left: 30vw;
+}
+#div9{
+    position: absolute;
+    background-color: darkgreen;
+    width: 30vw;
+    height: 90.5vh;
+}
+#div10{
+    position: relative;
+    background-color: lightgreen;
+    width: 70vw;
+    height: 90.5vh;
+    left: 30vw;
+}
+
+#div11{
+    position: absolute;
+    background-color: darkred;
+    width: 30vw;
+    height: 90.5vh;
+}
+#div12{
+    position: relative;
+    background-color: lightcoral;
+    width: 70vw;
+    height: 90.5vh;
+    left: 30vw;
+}
+#p-am{
+    color: black;
+    font-size: 150px;
+    writing-mode: vertical-rl;
+    margin-top: 60px;
+    margin-left: 125px;
+}
+
+#p-b{
+    color: white;
+    font-size: 150px;
+    writing-mode: vertical-rl;
+    margin-top: 71px;
+    margin-left: 125px;
+}
+#p-as{
+    color: black;
+    font-size: 120px;
+    writing-mode: vertical-rl;
+    margin-top: 10px;
+    margin-left: 145px;
+}
+#p-bl{
+    color: black;
+    font-size: 150px;
+    writing-mode: vertical-rl;
+    margin-top: 150px;
+    margin-left: 125px;
+}
+#p-j{
+    color: black;
+    font-size: 150px;
+    writing-mode: vertical-rl;
+    margin-top: 150px;
+    margin-left: 125px;
+}
+#p-r{
+    color: black;
+    font-size: 150px;
+    writing-mode: vertical-rl;
+    margin-top: 150px;
+    margin-left: 125px;
+}
+
+.pic{
+    margin-top: 70px;
+    margin-left: 26vw;
+}
+.price-info{
+    color:green;
+    width: 63px;
+    font-size: 30px;
+    border: 3px solid white;
+    border-radius: 3%;
+    margin-left: 540px;
+    margin-top: 0px;
+
+}
+.label{
+    margin-left: 430px;
+    font-size: 30px;
+    color: black;
+    border: 4px white solid;
+}
+.selection{
+    display: -webkit-inline-box;
+    padding-right: 10px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.a-P{
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+    border: 4px white solid;
+}
+.a-P:hover{
+    cursor: pointer;
+    background-color: #cae0d9;
+    border: 4px lime dotted;
+}
+.next{
+  background-color: lightgrey;
+  cursor: pointer;
+  position: absolute;
+  top: 357px;
+  right: 10px;
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border-radius: 5px;
+
+}
+
+.next:hover{
+    background-color: lightslategrey;
+    color: white;
+}
+.prev{
+    background-color: lightgrey;
+    position: absolute;
+    top: 360px;
+    left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.6 ease;
+    border-radius: 5px;
+
+}
+.prev:hover{
+    background-color: lightslategrey;
+    color: white;
+}
+
+.active{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.8s  ease-in-out;
+  }
+.not-active{
+    position: absolute;
+    opacity: 0;
+    transition: all 0.8s  ease-in-out;
+  }

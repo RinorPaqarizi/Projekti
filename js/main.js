@@ -6,26 +6,32 @@ function validate(number){
     if(number==0){
     
       if(inputList[0].value== "" || inputList[1].value== ""){
-        alert('Login has failed')
+        document.getElementById("submit").disabled =true;
+        document.getElementById("submit").style.backgroundColor="gray";
       }else{
         
-        alert('Login was successful')
+        document.getElementById("submit").disabled =false;
       }
 
 
 
     }else if(number==1){
 
-      
       if(inputList[3].value=="" || inputList[4].value=="" || inputList[5].value==""){
-        alert('Registration has failed')  
+        document.getElementById("submit1").disabled =true; 
+        document.getElementById("submit1").style.backgroundColor="gray";
+
       }else{
       
-        alert('Registration was successful')
+        document.getElementById("submit1").disabled =false;
+      
         
       }
     }
 
+  }
+  function refresh(t){
+    setTimeout("window.location.reload();",t);
   }
   function changeForm(number){
     var divList= document.getElementsByClassName('forms');
