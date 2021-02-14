@@ -280,3 +280,38 @@ h1{
     font-size: 100px;
     text-align: center;
 }
+
+
+@media screen and (max-width:1000px){
+
+   #david{
+       margin-left: -280px;
+       width: 300px;
+   }
+   #text-p1{
+       margin-left: -200px;
+   }
+   #p1{
+       margin-left: -200px;
+   }
+   #boss-yellow{
+    margin-left: -280px;
+    width: 300px;
+}
+#text-p2{
+    margin-left: -200px;
+}
+#p2{
+    margin-left: -200px;
+}
+#banana{
+    margin-left: -280px;
+    width: 300px;
+}
+#text-p3{
+    margin-left: -200px;
+}
+#p3{
+    margin-left: -200px;
+}
+}

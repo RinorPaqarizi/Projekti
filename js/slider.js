@@ -9,7 +9,7 @@
     
     sIndex--;
     console.log(sIndex);
-    if(sIndex<=0) sIndex=5;
+    if(sIndex<1) sIndex=5;
    
       divSliders[sIndex].classList.add('active');
     divSliders[sIndex].classList.remove('not-active');

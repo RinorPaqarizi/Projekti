@@ -1,4 +1,25 @@
 
+@media screen and(max-width:1000px){
+
+    #p-g{
+        
+        /* margin-left: 182px; Rinor veq me provu me i vendos ne ni div dyjat e tani me targetu ndamas*/
+    }
+    #p-t{
+        position: absolute;
+        margin-top: 95px;
+        margin-right: -227px;
+    }
+    .a-P{
+        margin-left: 366px;
+    }
+    .price-info{
+        margin-left: 387px;
+    }
+   
+}
+
+
 #div1{
     position: absolute;
     background-color: rgb(201, 104, 14);
@@ -241,3 +262,4 @@
     top: 830px;
     right: 300px;
 }
+
