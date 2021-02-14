@@ -80,9 +80,7 @@ h1{
     border-bottom:lime 1px dashed  ;
     font-size: 20px;
 }
-#mainDiv{
-    
-}
+
 #main{
     position: absolute;
 }
@@ -202,7 +200,7 @@ h1{
     position: relative;
     display: flex;
     flex-direction: row;
-    top: 500px;
+    top: 540px;
     right: 15px;
 }
 .imgs{
@@ -271,4 +269,14 @@ h1{
 #button2>a{
     color:white;
     text-decoration: none;
+}
+#p-p1{
+    color:lime;
+    font-size: 100px;
+    text-align: center;
+}
+#p-p2{
+    color:lime;
+    font-size: 100px;
+    text-align: center;
 }
