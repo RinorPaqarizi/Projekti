@@ -1,9 +1,9 @@
-
+/*
 @media screen and(max-width:1000px){
 
     #p-g{
         
-        /* margin-left: 182px; Rinor veq me provu me i vendos ne ni div dyjat e tani me targetu ndamas*/
+        //margin-left: 182px; Rinor veq me provu me i vendos ne ni div dyjat e tani me targetu ndamas
     }
     #p-t{
         position: absolute;
@@ -18,7 +18,7 @@
     }
    
 }
-
+*/
 
 #div1{
     position: absolute;
@@ -263,3 +263,12 @@
     right: 300px;
 }
 
+.p-users{
+    position: absolute;
+    display: flex;
+    width: 125px;
+    top: 635px;
+    left: 950px;
+    font-size: 15px;
+    color: black;
+}

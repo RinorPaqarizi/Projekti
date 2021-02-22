@@ -1,0 +1,55 @@
+#list-div{
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.li-s>a{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    padding: 6px;
+    font-size: 25px;
+    
+}
+#ul-l{
+    display: flex;
+        list-style: none;
+        text-align: center;
+        margin-top: 22px;  
+        margin-left: 450px;
+}
+.li-s{
+    border:lightgreen 2px solid;
+   margin-left: 5px;
+}
+#log-div{
+    position: relative;
+    flex-direction: row;
+    
+}
+.ul-log{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#cont-div{
+    position: relative;
+    flex-direction: row;
+    
+}
+#ul-cont{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.hidden {
+    display: none;
+  }
+  
+.p-li{
+    margin-left: 5px;
+    color: wheat;
+}

@@ -7,15 +7,15 @@
         <div id="header">
             <img src="Photos/icon.PNG" alt="icon">
             <ul id="ul1">
-                <li class="li"><a href="index.html">Home</a></li>
-                <li class="li"><a href="collections.html">Collections </a></li>
-                <li class="li"><a href="bestsellers.html">Bestsellers</a></li>
-                <li class="li"><a href="about_us.html">About </a></li>
-                <li class="li"><a href="contact_us.html">Contact</a></li>
+                <li class="li"><a href="index.php">Home</a></li>
+                <li class="li"><a href="collections.php">Collections </a></li>
+                <li class="li"><a href="bestsellers.php">Bestsellers</a></li>
+                <li class="li"><a href="about_us.php">About </a></li>
+                <li class="li"><a href="contact_us.php">Contact</a></li>
                 
             </ul>
             <ul id="ul2">
-                <li class="li"><a href="Login.html">Login</a></li>
+                <li class="li"><a href="Login.php">Login</a></li>
                 
             </ul>
         </div>
@@ -34,6 +34,7 @@
                      coriander and rosemary.
                      The heart notes include geranium, neroli, jasmine and sandalwood.</p>
                      <p id="p1">Price: 60$</p>
+                     <p id="user1">|Diamant Shala|</p>
             </div>
             <div id="main-2">
                 <img src="Photos/boss-yellow.png" alt="boss-yellow" id="boss-yellow">
@@ -42,12 +43,14 @@
                     An optimistic scent for a liberated soul, 
                     HUGO Man is presented in a sleek flask with a strapped-on cap, designed for men on the move.</p>
                     <p id="p2">Price: 120$</p>
+                    <p id="user2">|Rinor Paçarizi|</p>
             </div>
             <div id="main-3">
                 <img src="Photos/bananas.png" alt="banana" id="banana">
                 <p id="text-p3">An amber Banana - a rare, yet rich baroque-style composition - a blend of jasmine and candied bananas.
                      Violet flowers, slightly bitter, overlaid with nutmeg, raw and biting, create the sensation of the banana skin.</p>
                      <p id="p3">Price: 59$</p>
+                     <p id="user3">|Diamant Shala|</p>
             </div>
         </div>    
         <script src="js/main.js"></script>   

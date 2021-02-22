@@ -7,14 +7,14 @@
     <div id="header">
         <img src="Photos/icon.PNG" alt="icon">
         <ul id="ul1">
-            <li class="li"><a href="index.html">Home</a></li>
-            <li class="li"><a href="collections.html">Collections </a></li>
-            <li class="li"><a href="bestsellers.html">Bestsellers</a></li>
-            <li class="li"><a href="about_us.html">About </a></li>
-            <li class="li"><a href="contact_us.html">Contact</a></li>
+            <li class="li"><a href="index.php">Home</a></li>
+            <li class="li"><a href="collections.php">Collections </a></li>
+            <li class="li"><a href="bestsellers.php">Bestsellers</a></li>
+            <li class="li"><a href="about_us.php">About </a></li>
+            <li class="li"><a href="contact_us.php">Contact</a></li>
         </ul>
         <ul id="ul2">
-            <li class="li"><a href="Login.html">Login</a></li>
+            <li class="li"><a href="Login.php">Login</a></li>
             
         </ul>
     </div>
@@ -29,7 +29,7 @@
         <input class="input" type="text">
         <label for="">Koment?</label>
         <textarea id="lastInput" type="text"></textarea>
-        <button id="button"><a href="submit.html"><b>Submit</b></a></button>
+        <button id="button"><a href="submit.php"><b>Submit</b></a></button>
         
 
     </div>

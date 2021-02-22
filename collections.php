@@ -8,15 +8,15 @@
         <div id="header">
             <img src="Photos/icon.PNG" alt="icon">
             <ul id="ul1">
-                <li class="li"><a href="index.html">Home</a></li>
-                <li class="li"><a href="collections.html">Collections </a></li>
-                <li class="li"><a href="bestsellers.html">Bestsellers</a></li>
-                <li class="li"><a href="about_us.html">About </a></li>
-                <li class="li"><a href="contact_us.html">Contact</a></li>
+                <li class="li"><a href="index.php">Home</a></li>
+                <li class="li"><a href="collections.php">Collections </a></li>
+                <li class="li"><a href="bestsellers.php">Bestsellers</a></li>
+                <li class="li"><a href="about_us.php">About </a></li>
+                <li class="li"><a href="contact_us.php">Contact</a></li>
                 
             </ul>
             <ul id="ul2">
-                <li class="li"><a href="Login.html">Login</a></li>
+                <li class="li"><a href="Login.php">Login</a></li>
                 
             </ul>
         </div>
@@ -29,7 +29,8 @@
                 <img class="pic" src="Photos/amber-bond.jpg" alt="amber">
                 <p class="price-info">125$</p>
                 
-                    <a href="Purch-end.html" class="a-P">Purchase</a>
+                    <a href="Purch-end.php" class="a-P">Purchase</a>
+                    <p class="p-users">|Diamant Shala|</p>
                 
                 
             </div>
@@ -43,7 +44,8 @@
                 <p class="price-info">110$</p>
                 
                    
-                    <a href="Purch-end.html" class="a-P">Purchase</a>
+                    <a href="Purch-end.php" class="a-P">Purchase</a>
+                    <p class="p-users">|Rinor Paçarizi|</p>
                 
             </div>
         </div>
@@ -55,7 +57,8 @@
                 <img class="pic" src="Photos/black-bond.jpg" alt="black" style="margin-left: 27vw;">
                 <p class="price-info">150$</p>
                 
-                    <a href="Purch-end.html" class="a-P">Purchase</a>
+                    <a href="Purch-end.php" class="a-P">Purchase</a>
+                    <p class="p-users">|Diamant Shala|</p>
                 
             </div>
         </div>
@@ -67,7 +70,8 @@
                 <img class="pic" src="Photos/blue-bond.jpg" alt="Blue" style="margin-left: 26vw;">
                 <p class="price-info">120$</p>
                 
-                    <a href="Purch-end.html" class="a-P">Purchase</a>
+                    <a href="Purch-end.php" class="a-P">Purchase</a>
+                    <p class="p-users">|Rinor Paçarizi|</p>
                 
             </div>
         </div>
@@ -79,7 +83,8 @@
                 <img class="pic" src="Photos/jade-bond.jpg" alt="Jade" style="margin-left: 28vw;">
                 <p class="price-info">130$</p>
                 
-                    <a href="Purch-end.html" class="a-P">Purchase</a>
+                    <a href="Purch-end.php" class="a-P">Purchase</a>
+                    <p class="p-users">|Diamant Shala|</p>
 
             </div>
         </div>
@@ -90,7 +95,8 @@
             <div id="div12">
                 <img class="pic" src="Photos/ruby-bond.jpg" alt="ruby" style="margin-left: 28vw;">
                 <p class="price-info" style="margin-left: 570px;">139$</p>
-                <a href="Purch-end.html" class="a-P" style="margin-left: 545px;">Purchase</a>
+                <a href="Purch-end.php" class="a-P" style="margin-left: 545px;">Purchase</a>
+                <p class="p-users">|Rinor Paçarizi|</p>
                 
             </div>
         </div>

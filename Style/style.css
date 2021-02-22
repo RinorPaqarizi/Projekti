@@ -315,3 +315,30 @@ h1{
     margin-left: -200px;
 }
 }
+#user1{
+    position:absolute;
+    display: flex;
+    top: 425px;
+    color:lightblue;
+    font-size: 12px;
+    width: 140px;
+    left: 1145px;
+}
+#user2{
+    position:absolute;
+    display: flex;
+    top: 771px;
+    color:orange;
+    font-size: 12px;
+    width: 145px;
+    left: 1152px;
+}
+#user3{
+    position:absolute;
+    display: flex;
+    top: 1120px;
+    width: 145px;
+    color:white;
+    font-size: 12px;
+    left: 1152px;
+}
