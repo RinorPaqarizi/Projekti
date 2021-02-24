@@ -1,0 +1,38 @@
+.rows{
+    padding-left: 320px;
+    color:white;
+    font-size: 30px;
+}
+.rows2{
+    padding-left: 100px;
+    color:white;
+    font-size: 30px;
+    width: 100px;
+}
+.box2{
+    position: absolute;
+    top: 500px;
+}
+.h2s{
+    color:wheat;
+    margin-left: 600px;
+    font-size: 50px;
+    width: 930px;
+}
+#form-style{
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 180px;
+    left: 34%;
+    border: 2px lime solid;
+    bottom: 20px;
+
+}
+#form-style>label{
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+}

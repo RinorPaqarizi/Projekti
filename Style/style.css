@@ -46,22 +46,10 @@ body{
     color: green; 
     border: white 2px solid;
 }
-@font-face{
-    font-family: firstDiv;
-    src: url(Fonts/LobsterTwo-Regular.ttf);
-}
 
-@font-face{
-    font-family: secondDiv;
-    src: url(Fonts/LobsterTwo-Italic.ttf);
-}
 @font-face{
     font-family: thirdDiv;
     src: url(Fonts/Rokkitt-Light.ttf);
-}
-@font-face{
-    font-family: fourthDiv;
-    src: url(Fonts/Sanctuary.ttf);
 }
 
 h1{
@@ -69,14 +57,14 @@ h1{
     text-align: center;
 
     padding-top: 10px;
-    font-family:fourthDiv;
+    
     font-size: 50px;
 }
 #under-header{
     color: white;
     text-align: center;
     padding: 0%;
-    font-family:firstDiv;
+   
     border-bottom:lime 1px dashed  ;
     font-size: 20px;
 }
@@ -123,7 +111,7 @@ h1{
     top:190px;
     left: 260px;
     font-size: 20px;
-    font-family: secondDiv;
+   
 }
 #text-p2{
         position: absolute;
@@ -132,7 +120,7 @@ h1{
         width: 500px;
         top:530px;
         left: 260px;
-        font-family: secondDiv;
+      
         font-size: 20px;
 }
 #text-p3{
@@ -142,7 +130,7 @@ h1{
     width: 500px;
     top:900px;
     left: 260px;
-    font-family: secondDiv;
+ 
     font-size: 20px;
 }
 #p1{
@@ -153,7 +141,7 @@ h1{
     top:300px;
     left: 260px;
     font-size: 20px;
-    font-family: secondDiv;
+
 }
 #p2{
     position: absolute;
@@ -163,7 +151,7 @@ h1{
     top:665px;
     left: 255px;
     font-size: 20px;
-    font-family: secondDiv;
+
 }
 #p3{
     position: absolute;
@@ -173,7 +161,7 @@ h1{
     top:1010px;
     left: 250px;
     font-size: 20px;
-    font-family: secondDiv;
+
 }
 #h2{
     position: absolute;
@@ -194,7 +182,7 @@ h1{
     font-size: 50px;
     left: 20%;
     top:460px;
-    font-family: fourthDiv;
+   
 }
 #img-div{
     position: relative;
@@ -208,23 +196,8 @@ h1{
     width:500px;
     height: 400px;
 }
-#c-div{
-    padding: 20px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    top: 180px;
-    left: 34%;
-    border: 2px lime solid;
-    bottom: 20px;
 
-}
-#c-div>label{
-    color: white;
-    font-size: 30px;
-    padding: 7px;
-}
+
 
 .input{
     
@@ -341,4 +314,21 @@ h1{
     color:white;
     font-size: 12px;
     left: 1152px;
+}
+#form-style{
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 180px;
+    left: 34%;
+    border: 2px lime solid;
+    bottom: 20px;
+
+}
+#form-style>label{
+    color: white;
+    font-size: 30px;
+    padding: 7px;
 }
