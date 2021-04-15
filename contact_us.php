@@ -16,6 +16,7 @@
              <li class="li"><a href="./dashboard.php">Dashboard</a></li>
            
              <?php }?>
+             
            
             <li class="li"><a href="about_us.php">About </a></li>
             <li class="li"><a href="contact_us.php">Contact</a></li>
@@ -23,6 +24,7 @@
         <ul id="ul2">
 
         <?php if(!isset($_COOKIE['logedInUser'])) {?><li class="li"><a href="Login.php">Login</a></li><?php }?>
+        <?php if(isset($_COOKIE['logedInUser'])) {?><li class="li"><a href="./Logout.php">Logout</a></li><?php }?>
             
         </ul>
     </div>

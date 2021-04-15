@@ -20,11 +20,11 @@
         </ul>
         <ul id="ul2">
         <?php if(!isset($_COOKIE['logedInUser'])) {?><li class="li"><a href="Login.php">Login</a></li><?php }?>
-        <?php if(isset($_COOKIE['logedInUser'])) {?><li class="li"><a href="./Logout.php">Logout</a></li><?php }?>
+       
         </ul>
     </div>
-    <h1 id="h1-c">Your Contact info has been registered!</h1>
-    <button id="button2"><a href="index.php"><b>Home</b></a></button>
+    <h1 id="h1-c">Login Failed</h1>
+    <button id="button2"><a href="Login.php"><b>Go Back</b></a></button>
     <script src="js/main.js"></script>   
 </body>
 </html>

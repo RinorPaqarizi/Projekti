@@ -19,22 +19,25 @@ function changeForm(number){
 
 function validateForm() {
   let username = document.forms["mainForm2"]["username"].value;
+  console.log(username.value);
   if (!username) {
       alert("Username must be filled out");
       preventDefault()
   }
   let password = document.forms["mainForm2"]["password"].value;
+  console.log(username.value);
   if (!password) {
       alert("Password must be filled out");
       preventDefault()
   }
   let password1 = document.forms["mainForm2"]["password1"].value;
+  console.log(username.value);
   if (!password1) {
       alert("Password must be filled out");
       preventDefault()
   }else if(password1!=password){
-    alert("Passwords match");
+    alert("Passwords dont match");
     preventDefault()
   }
-  return true
+  alert("Fill All Fields");
 }

@@ -27,15 +27,12 @@ if ($conn->connect_error) {
             setcookie("logedInUser", $userId, time()+3600, '/');
             header('Location: ./index.php');
         } else {
-            echo "<div class=\"non-login-screen\">";
-            echo "<p>Please enter valid username and password</p>";
-            echo "<button onclick=\"window.location.href='./Login.php'\">Go Back</button>";
-            echo "</div>";
+            header('Location: ./LoginFailed.php');
         }
         $result->close();
     } else {
         echo "Error: " . $query . "<br>" . $conn->error. `
-             <button onclick=\"window.location.href='./Login.php'\">Go Back</button>"
+            header('Location: ./LoginFailed.php');
         `;
     }
     $conn->close();

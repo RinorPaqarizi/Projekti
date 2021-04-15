@@ -25,6 +25,7 @@ if (!empty($username) || !empty($password) || !empty($confirmPassword) && $passw
         $INSERT = "INSERT INTO users (Username , Password, role) VALUES ('$username', '$password', 0)";
         if ($conn->query($INSERT) === TRUE) {
             header('Location: ./index.php');
+            echo "Im here";
         } else {
             echo "Error: " . $INSERT . "<br>" . $conn->error;
         }

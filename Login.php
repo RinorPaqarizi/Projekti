@@ -20,7 +20,7 @@
         </ul>
         <ul id="ul2"> 
         <?php if(!isset($_COOKIE['logedInUser'])) {?><li class="li"><a href="Login.php">Login</a></li><?php }?>
-            
+        <?php if(isset($_COOKIE['logedInUser'])) {?><li class="li"><a href="Logout.php">Logout</a></li><?php }?>
         </ul>
     </div>
   <div class="container">
@@ -37,7 +37,7 @@
         <input id="submit" type="submit" class="input submit" />
       </div>
       </form>
-      <form class="mainForm2" action="./registerInput.php" method="POST" onsubmit="return validateForm()"> 
+      <form class="mainForm2" action="./registerInput.php" method="POST"> 
       <div class="register forms hidden">
         <label for="">Name:</label>
         <input type="text" class="input" name="username"/>
@@ -45,7 +45,7 @@
         <input type="password" name="password" class="input"/>
         <label for="">Confirm Password:</label>
         <input type="password" name="password1" class="input" />
-        <button id="submit1" type="submit" class="input submit"/>Submit</button>
+        <button id="submit1" type="submit" class="input submit"  onsubmit="return validateForm()">Submit</button>
       </div>
     </form>
   </div>
