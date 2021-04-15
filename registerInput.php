@@ -28,8 +28,10 @@ if (!empty($username) || !empty($password) || !empty($confirmPassword) && $passw
             echo "Im here";
         } else {
             echo "Error: " . $INSERT . "<br>" . $conn->error;
+
         }
         $conn->close();
     }
 }
+
 ?>

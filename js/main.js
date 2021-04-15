@@ -17,27 +17,27 @@ function changeForm(number){
 }
 
 
-function validateForm() {
-  let username = document.forms["mainForm2"]["username"].value;
-  console.log(username.value);
-  if (!username) {
+function validate() {
+  var username = document.getElementsByClassName("input")[3].value;
+  
+  if (username == "") {
       alert("Username must be filled out");
-      preventDefault()
+     
   }
-  let password = document.forms["mainForm2"]["password"].value;
-  console.log(username.value);
-  if (!password) {
+  var password =  document.getElementsByClassName("input")[4].value;
+ 
+  if (password=="") {
       alert("Password must be filled out");
-      preventDefault()
+      
   }
-  let password1 = document.forms["mainForm2"]["password1"].value;
-  console.log(username.value);
-  if (!password1) {
+  var password1 =  document.getElementsByClassName("input")[5].value;
+ 
+  if (password1=="") {
       alert("Password must be filled out");
-      preventDefault()
+     
   }else if(password1!=password){
     alert("Passwords dont match");
-    preventDefault()
+    
   }
-  alert("Fill All Fields");
+  
 }

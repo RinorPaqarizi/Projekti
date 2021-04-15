@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
    <link rel="stylesheet" href="Style/style2.css" type="text/css">
+   <script src="js/main.js"></script>
 </head>
 <body>
 <?php setcookie('logedInUser', null, 0, '/')?>
@@ -37,7 +38,7 @@
         <input id="submit" type="submit" class="input submit" />
       </div>
       </form>
-      <form class="mainForm2" action="./registerInput.php" method="POST"> 
+      <form class="mainForm2" action="./registerInput.php" method="POST" > 
       <div class="register forms hidden">
         <label for="">Name:</label>
         <input type="text" class="input" name="username"/>
@@ -45,12 +46,12 @@
         <input type="password" name="password" class="input"/>
         <label for="">Confirm Password:</label>
         <input type="password" name="password1" class="input" />
-        <button id="submit1" type="submit" class="input submit"  onsubmit="return validateForm()">Submit</button>
+        <button id="submit1" type="submit" class="input submit" onclick="validate()" >Submit</button>
       </div>
     </form>
   </div>
 
-    <script src="js/main.js"></script>
+    
     <script src="js/main2.js"></script>
 </body>
 </html>
