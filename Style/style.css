@@ -315,20 +315,3 @@ h1{
     font-size: 12px;
     left: 1152px;
 }
-#form-style{
-    padding: 20px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    top: 180px;
-    left: 34%;
-    border: 2px lime solid;
-    bottom: 20px;
-
-}
-#form-style>label{
-    color: white;
-    font-size: 30px;
-    padding: 7px;
-}

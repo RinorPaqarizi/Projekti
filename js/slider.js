@@ -1,6 +1,7 @@
   var divSliders=document.getElementsByClassName('slides');
   var sIndex=0;
-
+ 
+  
   document.getElementsByClassName('prev')[0].addEventListener('click', function (event){
   
     divSliders[sIndex].classList.remove('active');
@@ -9,7 +10,8 @@
     
     sIndex--;
     console.log(sIndex);
-    if(sIndex<1) sIndex=5;
+    if(sIndex<1) sIndex=divSliders.length-1;
+    
    
       divSliders[sIndex].classList.add('active');
     divSliders[sIndex].classList.remove('not-active');

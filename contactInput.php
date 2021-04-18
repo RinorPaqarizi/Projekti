@@ -5,7 +5,7 @@ $number=$_POST['number'];
 $email=$_POST['email'];
 $comment=$_POST['comment'];
 
-function dataPrint($data = null) {
+function idSet($data = null) {
     $data = $data ?? random_bytes(16);
     assert(strlen($data) == 16);
     $data[6] = chr(ord($data[6]) & 0x0f | 0x40);
@@ -23,7 +23,7 @@ if (!empty($name) || !empty($username) || !empty($number) ||!empty($email) ||!em
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     } else {
-        $dataP= dataPrint();
+        $dataP= idSet();
         $INSERT = "INSERT INTO contact (Name , Username, Number,Email,Comment) VALUES ('$name','$username','$number','$email','$comment')";
         if ($conn->query($INSERT) === TRUE) {
             header('Location: ./index.php');

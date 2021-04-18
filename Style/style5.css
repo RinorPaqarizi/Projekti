@@ -11,7 +11,23 @@
 }
 .box2{
     position: absolute;
-    top: 500px;
+    top: 450px;
+}
+.box3{
+    position: absolute;
+    top: 1000px;
+}
+.box1{
+    padding: 10px;
+}
+#formP{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-around;
 }
 .h2s{
     color:wheat;
